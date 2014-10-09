@@ -30,7 +30,7 @@
 			
 			this.stage.addEventListener(Event.RESIZE, stageResized);
 			
-			starling.handleLostContext = true;
+			Starling.handleLostContext = true;
 			
 			starling = new Starling(Main,this.stage);
 			starling.start();

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:466887fdf3a71118d1cc7375875935dd:7e46f4e66f7d7f4e55660e9c9c8f876b:ec5ea50b842cebb070f0cdab4e27ebf7$ -->
+<TextureAtlas imagePath="spriteSheetTextures.png">
+    <SubTexture name="spriteSheetTextures" x="2" y="2" width="622" height="482"/>
+</TextureAtlas>
