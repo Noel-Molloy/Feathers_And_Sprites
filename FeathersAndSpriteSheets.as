@@ -23,14 +23,16 @@
 			this.stage.scaleMode = StageScaleMode.NO_SCALE;
 			
 			/*remember to comment out*/
-			DeviceCapabilities.dpi = 432;
+			/*DeviceCapabilities.dpi = 432;
 			DeviceCapabilities.screenPixelWidth = 1080;
 			DeviceCapabilities.screenPixelHeight = 1920;
+			*/
 			
 			this.stage.addEventListener(Event.RESIZE, stageResized);
 			
 			starling.handleLostContext = true;
-			starling = new Starling(main,this.stage);
+			
+			starling = new Starling(Main,this.stage);
 			starling.start();
 		}
 		
